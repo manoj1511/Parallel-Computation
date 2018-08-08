@@ -1,0 +1,65 @@
+n = 5000, simulation time = 89.5586 seconds
+Hello from compute-2-19.local
+n = 5000, simulation time = 89.5831 seconds
+Hello from compute-2-19.local
+Hello from compute-2-20.local
+n = 5000, simulation time = 44.8791 seconds
+Hello from compute-2-19.local
+Hello from compute-2-21.local
+Hello from compute-2-20.local
+Hello from compute-2-22.local
+n = 5000, simulation time = 45.1239 seconds
+Hello from compute-2-19.local
+Hello from compute-2-20.local
+Hello from compute-2-21.local
+Hello from compute-2-23.local
+Hello from compute-2-22.local
+Hello from compute-2-31.local
+n = 5000, simulation time = 33.1039 seconds
+Hello from compute-2-19.local
+Hello from compute-2-20.local
+Hello from compute-2-21.local
+Hello from compute-2-32.local
+Hello from compute-2-23.local
+Hello from compute-2-31.local
+Hello from compute-2-22.local
+Hello from compute-2-33.local
+n = 5000, simulation time = 34.0556 seconds
+Hello from compute-2-19.local
+Hello from compute-2-20.local
+n = 10000, simulation time = 178.895 seconds
+Hello from compute-2-19.local
+Hello from compute-2-20.local
+Hello from compute-2-22.local
+Hello from compute-2-21.local
+n = 20000, simulation time = 779.657 seconds
+Hello from compute-2-19.local
+Hello from compute-2-21.local
+Hello from compute-2-23.local
+Hello from compute-2-20.local
+Hello from compute-2-22.local
+Hello from compute-2-31.local
+n = 30000, simulation time = 1081.67 seconds
+Hello from compute-2-19.local
+Hello from compute-2-20.local
+Hello from compute-2-22.local
+Hello from compute-2-31.local
+Hello from compute-2-21.local
+Hello from compute-2-23.local
+Hello from compute-2-32.local
+Hello from compute-2-33.local
+n = 60000, simulation time = 6824.32 seconds
+
+Strong scaling estimates are :
+    1.00    2.00    1.00    3.96    2.00    1.98    2.71    2.63    0.50    0.33 (speedup)
+    1.00    1.00    1.00    0.99    1.00    0.50    0.45    0.33    0.25    0.33 (efficiency)    for
+       1       2       1       4       2       4       6       8       2       1 threads/processors
+
+Average strong scaling efficiency:    0.68 
+
+Weak scaling estimates are :
+    1.00    0.33    0.50    0.64    0.64    0.25    0.15    0.15    0.11    0.08 (efficiency)    for
+       1       2       1       4       2       4       6       8       2       1 threads/processors
+
+Average weak scaling efficiency:    0.39 
+

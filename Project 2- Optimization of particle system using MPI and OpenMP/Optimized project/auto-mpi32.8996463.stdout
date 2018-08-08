@@ -1,0 +1,24 @@
+n = 5000, simulation time = 0.901767 seconds
+n = 5000, simulation time = 1.50998 seconds
+n = 5000, simulation time = 0.763576 seconds
+n = 5000, simulation time = 0.846376 seconds
+n = 5000, simulation time = 1.21955 seconds
+n = 5000, simulation time = 0.777148 seconds
+n = 10000, simulation time = 1.51376 seconds
+n = 20000, simulation time = 3.49092 seconds
+n = 30000, simulation time = 11.3028 seconds
+n = 60000, simulation time = 13.7605 seconds
+
+Strong scaling estimates are :
+    0.60    1.18    1.07    0.74    1.16 (speedup)
+    0.60    0.59    0.27    0.12    0.15 (efficiency)    for
+       1       2       4       6       8 threads/processors
+
+Average strong scaling efficiency:    0.34 
+
+Weak scaling estimates are :
+    0.60    0.60    0.26    0.08    0.07 (efficiency)    for
+       1       2       4       6       8 threads/processors
+
+Average weak scaling efficiency:    0.32 
+

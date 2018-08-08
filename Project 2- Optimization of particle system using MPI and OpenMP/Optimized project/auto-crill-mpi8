@@ -1,0 +1,18 @@
+#!/bin/bash -l
+#SBATCH -N 8			  # adjust the number of nodes per test (e.g. start with 1, 2, ...)		  # adjust the amount of time as necessary
+#SBATCH -J auto-mpi32
+#SBATCH -o auto-mpi32.%j.stdout
+#SBATCH -e auto-mpi32.%j.error
+
+rm mpi.txt
+mpirun -n 1  ./serial -n 5000 -no -s mpi.txt
+mpirun -n 1  ./mpi  -n 5000 -no -s mpi.txt
+mpirun -n 2  ./mpi  -n 5000 -no -s mpi.txt
+mpirun -n 4  ./mpi  -n 5000 -no -s mpi.txt
+mpirun -n 6  ./mpi  -n 5000 -no -s mpi.txt
+mpirun -n 8  ./mpi  -n 5000 -no -s mpi.txt
+mpirun -n 2  ./mpi  -n 10000 -no -s mpi.txt
+mpirun -n 4  ./mpi  -n 20000 -no -s mpi.txt
+mpirun -n 6  ./mpi  -n 30000 -no -s mpi.txt
+mpirun -n 8  ./mpi  -n 60000 -no -s mpi.txt
+./autograder -v mpi -s mpi.txt

@@ -1,0 +1,2 @@
+rm: cannot remove `serial.txt': No such file or directory
+slurmstepd: error: *** JOB 8996373 ON compute-0-0 CANCELLED AT 2018-04-14T23:26:06 DUE TO TIME LIMIT ***
